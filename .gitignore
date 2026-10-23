@@ -1,0 +1,16 @@
+# ===== 密钥 =====
+.env
+*.env
+!.env.example
+credentials.json
+
+# ===== 依赖 =====
+node_modules/
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# ===== 生成数据（体积大，需重建）=====
+server/data/
+*.log
